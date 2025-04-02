@@ -22,11 +22,9 @@ xhr.onreadystatechange = function(){
     if (xhr.readyState === 4) {
       const data = JSON.parse(this.responseText)  //now is string data convwert to object data
       console.log( data);
-        console.log(data.followers);
-        console.log(data.login);
-        console.log('https://.githubusercontent.com/u/198545275?v=4');
-        
-        
+      console.log(data.followers);
+      console.log(data.login);
+      console.log('https://.githubusercontent.com/u/198545275?v=4');
            
     }     
 }
